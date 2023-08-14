@@ -16,7 +16,7 @@ _get_ziplink () {
             echo "${UPSTREAM_REPO}/archive/Zara.zip"
         fi
     else
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1plZC1UaG9uL1plbHphbC9hcmNoaXZlL1phcmEuemlw" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL2RBRFhNT0RkL1NvdXJjZVpl" | base64 -d
     fi
 }
 
